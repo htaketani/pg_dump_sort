@@ -24,8 +24,13 @@ $ pg_dump_sort dump.sql > dump-sorted.sql
 
 ## Installation
 
-Installation is not needed.
-Download this script, and move to PATH directory, and set execution-bit by chmod command.
+Download this script, and set execution-bit by chmod command, and move to PATH directory.
+
+```sh
+curl -LO https://github.com/htaketani/pg_dump_sort/raw/main/pg_dump_sort && \
+chmod +x pg_dump_sort && \
+sudo mv pg_dump_sort /usr/local/bin/
+```
 
 ## Supported PostgreSQL(pg_dump) versions, dumpfile format
 
